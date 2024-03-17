@@ -8,7 +8,7 @@ To write a python program for creating Chat using TCP Sockets Links.
  server
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
-**CLIENT**
+**CLIENT:**
  ```
 import socket 
 s=socket.socket() 
@@ -19,7 +19,7 @@ while True:
     print("Server > ",s.recv(1024).decode())
 ```
 
-**SERVER**
+**SERVER:**
 ```
  
 import socket 
@@ -35,14 +35,14 @@ while True:
 
 ```
 
-## OUTPUT
+## OUTPUT:
 
-**SERVER**
+**SERVER:**
 
 ![cn-ex-3b-server](https://github.com/gururaghav2925/3b_CHAT_USING_TCP_SOCKETS/assets/151489500/92fb00d4-a7f8-4792-8058-adff7ebe7214)
 
 
-**CLIENT**
+**CLIENT:**
 
 ![cn-ex-3b-client](https://github.com/gururaghav2925/3b_CHAT_USING_TCP_SOCKETS/assets/151489500/b8a7755e-6608-4fa2-a4f6-e2df917dfac9)
 
